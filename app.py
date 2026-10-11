@@ -20,7 +20,7 @@ HOST = "0.0.0.0"
 PORT = int(
     os.environ.get(
         "SERVER_PORT",
-        os.environ.get("PORT", "5000")
+        os.environ.get("PORT", "80")
     )
 )
 
